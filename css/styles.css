@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+}
+
+section {
+    overflow: hidden;
+}
+.float-left{
+    float:left;
+}
+
+.float-right {
+    float:right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.para {
+    font-size: 22px;
+}
+
+header {
+    height: 40px;
+    padding: 10px 5px;
+    position: absolute;
+    background-color: #6699ff;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+    
+.nav-links {
+    list-style-type: none;
+    display: inline;
+    margin:5px 5px 20px 5px;
+    text-decoration: none;
+}
+
+#nav-body {
+    float: right;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color:#ffffff;
+    line-height: 40px;
+}
+
+#banner{
+    background-image: url('../images/itcrowd_new.jpg');
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position:cover;
+}
+#banner-text {
+    color:white;
+    text-align: center;
+    line-height: 600px;
+    font-size: 50px;
+}
+
+
+#info-img {
+    width: 500px;
+    padding: 30px;
+}
+/*#Itcrowd{
+    height:350px;
+    width: 100%;}
+    */
+    
+#info-text {
+    width:800px;
+    padding:30px;
+}
+
+#info-line{
+    font-size: 55px;
+}
+
+#info-btn {
+    background-color: #6699ff;
+    padding:5px;
+    border:1px dashed #000000;
+    border-radius: 4px;
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+#info-btn:hover {
+    background-color:#000000;
+    border:1px solid #6699ff;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color:#55acee;
+}
+
+.fa-instagram {
+    color: #9b6964;
+}
+
+.social-media {
+    text-decoration:none;
+    padding: 5px;
+}
+    
+#red {
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    float: right;
+}
+#blue {
+    height:250px;
+    width:250px;
+    background-color: blue;
+    /**float: left;*/
+    clear: right;
+}
+#green {
+    height:250px;
+    width: 250px;
+    background-color: green;
+    float: right;
+}
+ #orange {
+    height:250px;
+    width: 250px;
+    background-color: orange;
+    clear: right;
+    margin-bottom: 20px;
+ }
+ #purple {
+    height:250px;
+    width: 250px;
+    background-color: purple;
+    clear: both;
+    
+ }
+
+footer {
+    height:100px;
+}
